@@ -11,9 +11,9 @@ Built by <a href="https://chrisfountoulis.com">Chris Fountoulis</a> at <a href="
 </p>
 
 <p align="center">
-  <a href="https://github.com/chris-fountoulis/agency-os/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/chris-fountoulis/agency-os/ci.yml?branch=main&style=for-the-badge&label=CI&labelColor=0D1B4B" alt="CI status"></a>
-  <a href="https://github.com/chris-fountoulis/agency-os/tags"><img src="https://img.shields.io/github/v/tag/chris-fountoulis/agency-os?style=for-the-badge&label=release&labelColor=F5A623&color=0D1B4B" alt="Latest release"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/chris-fountoulis/agency-os?style=for-the-badge&labelColor=F5A623&color=0D1B4B" alt="MIT license"></a>
+  <a href="https://github.com/growthofinfluence/agency-os/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/growthofinfluence/agency-os/ci.yml?branch=main&style=for-the-badge&label=CI&labelColor=0D1B4B" alt="CI status"></a>
+  <a href="https://github.com/growthofinfluence/agency-os/tags"><img src="https://img.shields.io/github/v/tag/growthofinfluence/agency-os?style=for-the-badge&label=release&labelColor=F5A623&color=0D1B4B" alt="Latest release"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/growthofinfluence/agency-os?style=for-the-badge&labelColor=F5A623&color=0D1B4B" alt="MIT license"></a>
   <img src="https://img.shields.io/badge/python-3.9%20to%203.13-0D1B4B?style=for-the-badge&labelColor=F5A623&logo=python&logoColor=0D1B4B" alt="Python 3.9 to 3.13">
   <img src="https://img.shields.io/badge/dependencies-none-0D1B4B?style=for-the-badge&labelColor=F5A623" alt="No runtime dependencies">
   <img src="https://img.shields.io/badge/Claude%20Code-plugin-0D1B4B?style=for-the-badge&labelColor=F5A623" alt="Claude Code plugin">
@@ -47,6 +47,7 @@ Built by <a href="https://chrisfountoulis.com">Chris Fountoulis</a> at <a href="
 - [Methodology](#methodology)
 - [Documentation](#documentation)
 - [Roadmap](#roadmap)
+- [Learn more and references](#learn-more-and-references)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -170,7 +171,7 @@ agency-os lint: 15 notes, 23 links, 11 errors, 5 warnings
 ## Quickstart (30 seconds)
 
 ```bash
-git clone https://github.com/chris-fountoulis/agency-os
+git clone https://github.com/growthofinfluence/agency-os
 python3 agency-os/scripts/agency-os init my-agency --name "Acme Agency"
 python3 agency-os/scripts/agency-os stats my-agency/vault
 ```
@@ -180,14 +181,14 @@ That gives you `my-agency/vault/` (open it in Obsidian), `my-agency/CLAUDE.md` a
 fictional agency. Then inside Claude Code:
 
 ```text
-/plugin marketplace add chris-fountoulis/agency-os
+/plugin marketplace add growthofinfluence/agency-os
 /plugin install agency-os@agency-os
 ```
 
 Start Claude Code in `my-agency/` and the first thing the session sees is the company.
 
 > [!TIP]
-> Prefer a command on your PATH? `pip install git+https://github.com/chris-fountoulis/agency-os`
+> Prefer a command on your PATH? `pip install git+https://github.com/growthofinfluence/agency-os`
 > and use `agency-os` everywhere below. Python 3.9 or newer, standard library only.
 
 ## Why this exists
@@ -360,6 +361,27 @@ The full write-up, with the limits, is in [docs/methodology.md](docs/methodology
 - A "since your last session" digest per person , built from the session logs.
 - A PyPI release, so `pipx install agency-os` replaces the git URL.
 - Hook commands that pick `python3`, `python` or `py` automatically, for Windows without edits.
+
+## Learn more and references
+
+**From Growth Of Influence**
+
+- [Claude Code tutorial for marketers](https://growthofinfluence.com/claude-code-tutorial/): the workflow this plugin automates
+- [How to build a digital marketing agency](https://growthofinfluence.com/build-digital-marketing-agency/)
+- [Agency team structure and remote team management](https://growthofinfluence.com/agency-team-structure-remote-team-management-lean-agency/)
+- [Agency scaling](https://growthofinfluence.com/agency-scaling/)
+- [AI agents in marketing, 2026](https://growthofinfluence.com/ai-agents-marketing-2026/)
+
+**Pairs with** [agency-guardrails](https://github.com/growthofinfluence/agency-guardrails): agency-os remembers what your company knows, agency-guardrails checks what your agents write before it ships.
+
+**Built on**
+
+- [Claude Code plugins](https://code.claude.com/docs/en/plugins), [hooks](https://code.claude.com/docs/en/hooks) and [skills](https://code.claude.com/docs/en/skills)
+- [Obsidian Help](https://help.obsidian.md/), the vault format this uses
+- [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), [Semantic Versioning](https://semver.org/) and the [Citation File Format](https://citation-file-format.github.io/) for this repository itself
+
+**Cite it:** see [CITATION.cff](CITATION.cff), or use GitHub's "Cite this repository" button.
+**More open source:** [github.com/growthofinfluence](https://github.com/growthofinfluence)
 
 ## Contributing
 

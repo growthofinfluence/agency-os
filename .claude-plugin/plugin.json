@@ -8,8 +8,8 @@
     "email": "chris@growthofinfluence.com",
     "url": "https://growthofinfluence.com"
   },
-  "homepage": "https://github.com/chris-fountoulis/agency-os",
-  "repository": "https://github.com/chris-fountoulis/agency-os",
+  "homepage": "https://github.com/growthofinfluence/agency-os",
+  "repository": "https://github.com/growthofinfluence/agency-os",
   "license": "MIT",
   "keywords": ["obsidian", "vault", "agency", "knowledge-base", "session-log", "team"]
 }

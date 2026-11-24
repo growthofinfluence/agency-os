@@ -28,9 +28,11 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/chris-fountoulis/agency-os"
-Issues = "https://github.com/chris-fountoulis/agency-os/issues"
-Changelog = "https://github.com/chris-fountoulis/agency-os/blob/main/CHANGELOG.md"
+Homepage = "https://github.com/growthofinfluence/agency-os"
+Website = "https://growthofinfluence.com/"
+Organization = "https://github.com/growthofinfluence"
+Issues = "https://github.com/growthofinfluence/agency-os/issues"
+Changelog = "https://github.com/growthofinfluence/agency-os/blob/main/CHANGELOG.md"
 
 [project.scripts]
 agency-os = "agency_os.cli:main"

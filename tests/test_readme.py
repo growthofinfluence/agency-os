@@ -27,7 +27,7 @@ class ReadmeDemoTest(unittest.TestCase):
 
     def test_quickstart_mentions_real_commands(self):
         text = readme()
-        for cmd in ("init my-agency", "/plugin marketplace add chris-fountoulis/agency-os",
+        for cmd in ("init my-agency", "/plugin marketplace add growthofinfluence/agency-os",
                     "/plugin install agency-os@agency-os"):
             self.assertIn(cmd, text)
 

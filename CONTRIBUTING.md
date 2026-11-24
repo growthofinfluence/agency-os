@@ -8,7 +8,7 @@ and a template vault. Changes that keep it that way are the easiest to merge.
 ## Setup
 
 ```bash
-git clone https://github.com/chris-fountoulis/agency-os
+git clone https://github.com/growthofinfluence/agency-os
 cd agency-os
 python3 -m unittest discover -s tests        # Python 3.9 or newer, nothing to install
 python3 scripts/agency-os lint template-vault --strict

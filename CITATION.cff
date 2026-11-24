@@ -6,11 +6,15 @@ authors:
   - family-names: Fountoulis
     given-names: Chris
     affiliation: Growth Of Influence
+  - name: "Growth Of Influence"
+    website: "https://growthofinfluence.com"
+    city: "Thessaloniki"
+    country: GR
 version: 0.1.0
 date-released: 2026-10-30
 license: MIT
-repository-code: "https://github.com/chris-fountoulis/agency-os"
-url: "https://github.com/chris-fountoulis/agency-os"
+repository-code: "https://github.com/growthofinfluence/agency-os"
+url: "https://github.com/growthofinfluence/agency-os"
 keywords:
   - claude-code
   - obsidian

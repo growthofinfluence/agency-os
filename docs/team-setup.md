@@ -16,7 +16,7 @@ keeps every clone current.
 ## 1. One person creates the vault
 
 ```bash
-git clone https://github.com/chris-fountoulis/agency-os
+git clone https://github.com/growthofinfluence/agency-os
 python3 agency-os/scripts/agency-os init ~/work/acme-brain --name "Acme Agency" --no-examples
 
 cd ~/work/acme-brain
@@ -45,7 +45,7 @@ Then, once per person:
    clone; per-person layout (`workspace.json`) is gitignored.
 2. **Claude Code plugin:**
    ```text
-   /plugin marketplace add chris-fountoulis/agency-os
+   /plugin marketplace add growthofinfluence/agency-os
    /plugin install agency-os@agency-os
    ```
    Or without the plugin: `agency-os init --hooks` writes the same three hooks into the
@@ -94,7 +94,7 @@ jobs:
       - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
-      - run: pip install "git+https://github.com/chris-fountoulis/agency-os"
+      - run: pip install "git+https://github.com/growthofinfluence/agency-os"
       - run: agency-os lint vault --format github
       - run: agency-os index vault --check
 ```

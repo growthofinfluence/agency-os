@@ -4,6 +4,14 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses
 [Semantic Versioning](https://semver.org/).
 
+## [Unreleased]
+
+### Changed
+
+- Every repository URL, badge, install command and citation now points at `growthofinfluence/agency-os`.
+- README: added "Learn more and references" with links to the Growth Of Influence guides, the sources this is built on, and agency-guardrails.
+- Package and citation metadata list Growth Of Influence as an author and link to the website.
+
 ## [0.1.0] - 2026-10-30
 
 First public release.
@@ -34,4 +42,5 @@ First public release.
   installer.
 - Documentation: architecture, team setup, client vaults, FAQ.
 
-[0.1.0]: https://github.com/chris-fountoulis/agency-os/releases/tag/v0.1.0
+[0.1.0]: https://github.com/growthofinfluence/agency-os/releases/tag/v0.1.0
+[Unreleased]: https://github.com/growthofinfluence/agency-os/compare/v0.1.0...HEAD
